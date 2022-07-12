@@ -1,0 +1,9 @@
+127.0.0.1 - - [12/Jul/2022:12:43:47 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [12/Jul/2022:12:43:49 +0530] "GET /spring-mvc-demo/ HTTP/1.1" 200 238
+0:0:0:0:0:0:0:1 - - [12/Jul/2022:12:43:49 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [12/Jul/2022:12:43:52 +0530] "GET /spring-mvc-demo/customer/showForm HTTP/1.1" 200 685
+0:0:0:0:0:0:0:1 - - [12/Jul/2022:12:44:04 +0530] "POST /spring-mvc-demo/customer/processForm HTTP/1.1" 200 835
+0:0:0:0:0:0:0:1 - - [12/Jul/2022:12:44:15 +0530] "POST /spring-mvc-demo/customer/processForm HTTP/1.1" 200 209
+127.0.0.1 - - [12/Jul/2022:12:58:15 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [12/Jul/2022:12:58:16 +0530] "GET /spring-mvc-demo/ HTTP/1.1" 200 238
+0:0:0:0:0:0:0:1 - - [12/Jul/2022:12:58:18 +0530] "GET /spring-mvc-demo/customer/showForm HTTP/1.1" 200 685

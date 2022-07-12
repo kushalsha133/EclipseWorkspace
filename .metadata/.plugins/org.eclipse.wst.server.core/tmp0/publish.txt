@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Tue Jul 12 12:43:43 IST 2022
+org.eclipse.jst.jee.server\:/binary\:D\:\\EclipseSpringRewamp\\spring-mvc-demo\\WebContent\\WEB-INF\\lib\\spring-web-5.3.9-sources.jar=WEB-INF/lib/spring-web-5.3.9-sources.jar
+org.eclipse.jst.jee.server\:/binary\:D\:\\EclipseSpringRewamp\\spring-mvc-demo\\WebContent\\WEB-INF\\lib\\spring-web-5.3.9.jar=WEB-INF/lib/spring-web-5.3.9.jar

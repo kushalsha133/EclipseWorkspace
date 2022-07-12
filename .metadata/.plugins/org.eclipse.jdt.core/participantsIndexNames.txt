@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+D:\EclipseSpringRewamp\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2347208218.index
+\HandsonProject\src
+D:\EclipseSpringRewamp\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1345357954.index
+\HandsonProject\src
+D:\EclipseSpringRewamp\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\237508677.index
+\spring-mvc-demo\src
+D:\EclipseSpringRewamp\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2534339325.index
+\springmvcdemo\src
