@@ -6,6 +6,8 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 
+import com.springmvcdemo.mvc.validation.CourseCode;
+
 public class Customer {
 	
 	private String firstName;
@@ -49,5 +51,15 @@ public class Customer {
 		this.postalCode = postalCode;
 	}
 	
+	@CourseCode   //idhar chalega default values which is LUV
+	//@CourseCode(value="TOPS", message = "Must Start with TOPS") // idhar chalega custom
+	private String courseCode;
+	public String getCourseCode() {
+		return courseCode;
+	}
+	public void setCourseCode(String courseCode) {
+		this.courseCode = courseCode;
+	}
+    
 	
 }

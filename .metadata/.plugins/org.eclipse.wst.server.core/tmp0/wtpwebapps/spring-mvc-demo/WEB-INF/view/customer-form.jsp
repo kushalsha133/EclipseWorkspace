@@ -28,6 +28,10 @@ PostalCode = <ff:input path="postalCode" />
 	<ff:errors path="postalCode" cssClass="errorss" />	
 		<br>
 		<hr>
+CourseCode = <ff:input path="courseCode" />
+	<ff:errors path="courseCode" cssClass="errorss" />	
+		<br>
+		<hr>
 <input type="submit" value="submit"/>	
 
 </ff:form>

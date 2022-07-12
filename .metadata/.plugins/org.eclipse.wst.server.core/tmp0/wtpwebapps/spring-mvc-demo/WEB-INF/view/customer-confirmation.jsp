@@ -11,5 +11,6 @@ the name is ${customer.firstName} ${customer.lastName}
 <br>
 Free Passes : ${customer.freePasses }
 Postal Code : ${customer.postalCode }
+Course Code : ${customer.courseCode }
 </body>
 </html>
