@@ -14,3 +14,9 @@
 0:0:0:0:0:0:0:1 - - [12/Jul/2022:19:32:30 +0530] "GET /spring-mvc-demo/ HTTP/1.1" 200 238
 0:0:0:0:0:0:0:1 - - [12/Jul/2022:19:32:32 +0530] "GET /spring-mvc-demo/student/showForm HTTP/1.1" 200 1372
 0:0:0:0:0:0:0:1 - - [12/Jul/2022:19:32:34 +0530] "GET /spring-mvc-demo/customer/showForm HTTP/1.1" 500 6712
+127.0.0.1 - - [12/Jul/2022:19:38:08 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [12/Jul/2022:19:38:09 +0530] "GET /spring-mvc-demo/ HTTP/1.1" 200 238
+0:0:0:0:0:0:0:1 - - [12/Jul/2022:19:38:14 +0530] "GET /spring-mvc-demo/customer/showForm HTTP/1.1" 200 782
+0:0:0:0:0:0:0:1 - - [12/Jul/2022:19:38:32 +0530] "POST /spring-mvc-demo/customer/processForm HTTP/1.1" 200 229
+0:0:0:0:0:0:0:1 - - [12/Jul/2022:19:38:40 +0530] "POST /spring-mvc-demo/customer/processForm HTTP/1.1" 200 873
+0:0:0:0:0:0:0:1 - - [12/Jul/2022:19:38:45 +0530] "POST /spring-mvc-demo/customer/processForm HTTP/1.1" 200 227
