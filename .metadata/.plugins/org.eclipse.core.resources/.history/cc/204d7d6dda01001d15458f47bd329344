@@ -1,5 +1,0 @@
-package com.springmvcdemo.mvc.validation;
-
-public @interface CourseCode {
-
-}
