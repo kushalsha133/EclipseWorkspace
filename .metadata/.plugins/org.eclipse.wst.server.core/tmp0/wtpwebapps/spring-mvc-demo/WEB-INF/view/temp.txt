@@ -1,7 +1,0 @@
-
-			<!--<ff:option value="Brazil" label="Brazil"></ff:option>-->
-			<!--<ff:option value="India" label="India"></ff:option>-->
-			<!--<ff:option value="France" label="France"></ff:option>-->
-			<!--<ff:option value="Germany" label="Germany"></ff:option> -->
-		    <!--<ff:options items="${student.countryOptions }"/>-->
-		    <!-- yeh commented lines doosre ways hai sam cgeez karne ke to test this property file vala cheez inhe hatana padega-->
