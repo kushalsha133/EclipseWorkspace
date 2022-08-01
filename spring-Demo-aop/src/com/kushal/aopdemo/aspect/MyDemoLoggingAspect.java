@@ -26,4 +26,34 @@ public class MyDemoLoggingAspect {
 	public void beforeAddAccountAdvice1() {
 		System.out.println("==> Executing @Before advice only on AccountDAO.AddAccount execution");
 	}
+	
+	@Before("execution(* add*())") //can give wildcards also, like add*() willmatch all starting with add
+	//public * add*()
+	public void beforeAddAccountAdvice2() {
+		System.out.println("==> Executing @Before advice any add* method with any access specifier and return type");
+	}
+	
+	@Before("execution(* add*(com.kushal.aopdemo.Account))") //can give wildcards also, like add*() willmatch all starting with add
+	//public * add*()
+	public void beforeAddAccountAdvice3() {
+		System.out.println("==> Executing @Before advice any add* method accepting Account parameter");
+	}
+	
+	@Before("execution(* add*(com.kushal.aopdemo.Account, ..))") //can give wildcards also, like add*() willmatch all starting with add
+	//public * add*()
+	public void beforeAddAccountAdvice4() {
+		System.out.println("==> Executing @Before advice any add* method accepting Account parameter followed by any number of arguments");
+	}
+	
+	@Before("execution(* add*(..))") //can give wildcards also, like add*() willmatch all starting with add
+	//public * add*()
+	public void beforeAddAccountAdvice5() {
+		System.out.println("==> Executing @Before advice any add* method accepting any number of arguments");
+	}
+	
+	@Before("execution(* com.kushal.aopdemo.dao.*.*(..))") //star1 is ay return type, star2 is any class under that package, thar3 is any function in that class
+	//public * add*()
+	public void beforeAddAccountAdvice6() {
+		System.out.println("==> Executing @Before advice on any method ofany class under dao package");
+	}
 }
