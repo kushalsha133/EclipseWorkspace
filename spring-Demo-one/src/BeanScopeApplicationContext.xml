@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <bean id="myFortune" class="com.springdemo.scopes.HappyFortuneService">
+    	<property name="fortunes">
+    		<array>
+    			<value>Dayum you lucky</value>
+    			<value>Have a nice day</value>
+    			<value>You're lookin hot</value>
+    		</array>
+    	</property>
+    </bean>
+    <bean id="myCoach" class="com.springdemo.scopes.TrackCoach" scope="prototype">
+    	<constructor-arg ref="myFortune"/>
+    </bean>
+</beans>
+
+
+
+
+
