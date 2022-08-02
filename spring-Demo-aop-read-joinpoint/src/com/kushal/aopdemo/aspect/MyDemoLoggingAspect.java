@@ -1,6 +1,9 @@
 package com.kushal.aopdemo.aspect;
 
+import java.util.List;
+
 import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.reflect.MethodSignature;
@@ -14,7 +17,29 @@ import com.kushal.aopdemo.Account;
 @Order(2)
 public class MyDemoLoggingAspect {
 	
+	//add new advice for After returning
+	@AfterReturning(pointcut="execution(* com.kushal.aopdemo.dao.AccountDAO.findAccounts(..))",
+			returning="result") //the value being returned is saved in this variable
+	public void afterReturningFindAccountsAdvice(JoinPoint theJoinPoint, List<Account> result) {
+		//print method we are advising on
+		String method = theJoinPoint.getSignature().toShortString();
+		System.out.println("\n==> Executing @AfterReturning on Method : "+method);
+		//print out the results of method call
+		System.out.println("\n==> Result is : "+result);
+		
+		//postProcess the data
+		convertAccountNamesToUpperName(result);
+	}
 	
+	private void convertAccountNamesToUpperName(List<Account> result) {
+		// TODO Auto-generated method stub
+		for(Account acc: result) {
+			String lvl = acc.getLevel();
+			acc.setLevel(lvl.toUpperCase());
+		}
+	}
+
+	//==============
 	@Before("com.kushal.aopdemo.aspect.AOPExpressions.forDAONoGetterSetter()")
 	public void beforeAddAccountAdvice6(JoinPoint theJoinPoint) {
 		System.out.println("==> Executing @Before advice on any method of any class under dao package, but no getter and Setter");
