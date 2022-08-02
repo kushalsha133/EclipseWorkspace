@@ -454,7 +454,6 @@ INDEX VERSION 1.131+D:\EclipseSpringRewamp\.metadata\.plugins\org.eclipse.jdt.co
 673903855.index
 3683093727.index
 2964223205.index
-1232926617.index
 2129667352.index
 2338395841.index
 2011757625.index

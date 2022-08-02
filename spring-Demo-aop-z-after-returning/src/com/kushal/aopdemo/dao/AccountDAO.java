@@ -1,5 +1,8 @@
 package com.kushal.aopdemo.dao;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.springframework.stereotype.Component;
 
 import com.kushal.aopdemo.Account;
@@ -18,6 +21,7 @@ public class AccountDAO {
 		System.out.println("in Set name Code");
 		this.name = name;
 	}
+	
 	public String getServiceCode() {
 		System.out.println(" In get service code");
 		return serviceCode;
@@ -26,17 +30,21 @@ public class AccountDAO {
 		System.out.println(" In set service code");
 		this.serviceCode = serviceCode;
 	}
-	public void addAccount() {
-		System.out.println(getClass()+" :Adding Account");
-	}
-	public void addSillyMember() {
-		System.out.println(getClass()+" :Doing silly");
-	}
-	public void addAccount1(Account theAccount) {
+		
+	public void addAccount(Account theAccount, boolean vip) {
 		System.out.println(getClass()+" :Adding Account 1");
 	}
 	
-	public void addAccount2(Account theAccount, boolean vip) {
-		System.out.println(getClass()+" :Adding Account 1");
+	//add a new method 
+	public List<Account> findAccounts(){
+		List<Account> myAccounts = new ArrayList<>();
+		//some temp accounts
+		Account temp1 = new Account("Kush0","Gold");
+		Account temp2 = new Account("Kush1","Silver");
+		Account temp3 = new Account("Kush2","bronze");
+		myAccounts.add(temp3);
+		myAccounts.add(temp2);
+		myAccounts.add(temp1);
+		return myAccounts;
 	}
 }
