@@ -20,24 +20,28 @@ public class DemoSecurityConfig
 		auth.inMemoryAuthentication()
 			.withUser(users.username("kush").password("kush").roles("EMPLOYEE"))
 			.withUser(users.username("mary").password("mary").roles("EMPLOYEE","MANAGER"))
-			.withUser(users.username("john").password("john").roles("ADMIN"));
+			.withUser(users.username("john").password("john").roles("EMPLOYEE","ADMIN"));
 	}
 
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 		http.authorizeRequests()
-				.anyRequest().authenticated()
+				.antMatchers("/").hasRole("EMPLOYEE")
+				.antMatchers("/leaders/**").hasRole("MANAGER")
+				.antMatchers("/systems/**").hasRole("ADMIN")
 			.and()
 			.formLogin()
 				.loginPage("/showMyLoginPage")
 				.loginProcessingUrl("/authenticateTheUser")
 				.permitAll()
 			.and()
-				.logout().permitAll();
+				.logout().permitAll()
+			.and()
+				.exceptionHandling().accessDeniedPage("/access-denied");
 		//FOR ADDING CSS SUPPORT
 //		http.authorizeRequests()
 //				.antMatchers("/css/**").permitAll()
-//				.anyRequest().authenticated()
+//				.anyRequest().authenticated()       //this line is allowing any user with any role
 //			.and()
 //			.formLogin()
 //				.loginPage("/showMyLoginPage")

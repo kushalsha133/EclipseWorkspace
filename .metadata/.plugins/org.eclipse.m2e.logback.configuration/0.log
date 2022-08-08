@@ -1523,3 +1523,70 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Unrecognise
 2022-08-08 16:21:05,263 [Worker-932: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-07-user-roles\src\main\resources
 2022-08-08 16:21:05,264 [Worker-932: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-08-08 16:21:05,264 [Worker-932: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-07-user-roles\src\test\resources
+2022-08-08 17:24:58,910 [Worker-946: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-08 17:24:58,945 [Worker-946: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-07-user-roles\src\main\resources
+2022-08-08 17:24:58,946 [Worker-946: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-08 17:24:58,947 [Worker-946: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-07-user-roles\src\test\resources
+2022-08-08 17:26:01,531 [Worker-943: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-08 17:26:01,532 [Worker-943: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-07-user-roles\src\main\resources
+2022-08-08 17:26:01,532 [Worker-943: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-08 17:26:01,533 [Worker-943: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-07-user-roles\src\test\resources
+2022-08-08 17:26:12,114 [Worker-948: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-08 17:26:12,114 [Worker-948: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-07-user-roles\src\main\resources
+2022-08-08 17:26:12,115 [Worker-948: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-08 17:26:12,116 [Worker-948: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-07-user-roles\src\test\resources
+2022-08-08 17:27:08,808 [Worker-943: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-08 17:27:08,808 [Worker-943: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-07-user-roles\src\main\resources
+2022-08-08 17:27:08,809 [Worker-943: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-08 17:27:08,810 [Worker-943: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-07-user-roles\src\test\resources
+2022-08-08 17:28:33,457 [Worker-947: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-08 17:28:33,458 [Worker-947: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-07-user-roles\src\main\resources
+2022-08-08 17:28:33,459 [Worker-947: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-08 17:28:33,460 [Worker-947: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-07-user-roles\src\test\resources
+2022-08-08 17:32:00,284 [Worker-949: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-08 17:32:00,285 [Worker-949: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-07-user-roles\src\main\resources
+2022-08-08 17:32:00,285 [Worker-949: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-08 17:32:00,286 [Worker-949: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-07-user-roles\src\test\resources
+2022-08-08 17:35:25,443 [Worker-951: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-08 17:35:25,444 [Worker-951: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-07-user-roles\src\main\resources
+2022-08-08 17:35:25,445 [Worker-951: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-08 17:35:25,445 [Worker-951: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-07-user-roles\src\test\resources
+2022-08-08 17:36:25,398 [Worker-951: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-08 17:36:25,399 [Worker-951: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-07-user-roles\src\main\resources
+2022-08-08 17:36:25,399 [Worker-951: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-08 17:36:25,400 [Worker-951: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-07-user-roles\src\test\resources
+2022-08-08 17:36:48,485 [Worker-951: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-08 17:36:48,485 [Worker-951: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-07-user-roles\src\main\resources
+2022-08-08 17:36:48,486 [Worker-951: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-08 17:36:48,486 [Worker-951: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-07-user-roles\src\test\resources
+2022-08-08 17:37:20,442 [Worker-953: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-08 17:37:20,442 [Worker-953: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-07-user-roles\src\main\resources
+2022-08-08 17:37:20,443 [Worker-953: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-08 17:37:20,444 [Worker-953: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-07-user-roles\src\test\resources
+2022-08-08 17:38:23,276 [Worker-947: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-08 17:38:23,277 [Worker-947: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-07-user-roles\src\main\resources
+2022-08-08 17:38:23,278 [Worker-947: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-08 17:38:23,279 [Worker-947: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-07-user-roles\src\test\resources
+2022-08-08 17:41:08,817 [Worker-953: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-08 17:41:08,818 [Worker-953: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-07-user-roles\src\main\resources
+2022-08-08 17:41:08,818 [Worker-953: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-08 17:41:08,819 [Worker-953: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-07-user-roles\src\test\resources
+2022-08-08 17:42:14,582 [Worker-956: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-08 17:42:14,583 [Worker-956: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-07-user-roles\src\main\resources
+2022-08-08 17:42:14,583 [Worker-956: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-08 17:42:14,584 [Worker-956: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-07-user-roles\src\test\resources
+2022-08-08 17:42:45,887 [Worker-947: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-08 17:42:45,887 [Worker-947: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-07-user-roles\src\main\resources
+2022-08-08 17:42:45,888 [Worker-947: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-08 17:42:45,888 [Worker-947: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-07-user-roles\src\test\resources
+2022-08-08 17:43:40,929 [Worker-954: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-08 17:43:40,930 [Worker-954: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-07-user-roles\src\main\resources
+2022-08-08 17:43:40,930 [Worker-954: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-08 17:43:40,931 [Worker-954: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-07-user-roles\src\test\resources
+2022-08-08 17:43:47,768 [Worker-957: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-08 17:43:47,768 [Worker-957: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-07-user-roles\src\main\resources
+2022-08-08 17:43:47,769 [Worker-957: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-08 17:43:47,769 [Worker-957: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-07-user-roles\src\test\resources
+2022-08-08 17:44:01,431 [Worker-953: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-08 17:44:01,432 [Worker-953: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-07-user-roles\src\main\resources
+2022-08-08 17:44:01,433 [Worker-953: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!

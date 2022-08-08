@@ -17,6 +17,15 @@ Welome to our Home Page
 	<br>
 	User Role: <security:authentication property="principal.authorities"/>
 </p>
+
+<!-- Add links to /leaders for Managers -->
+<p>
+	<a href="${pageContext.request.contextPath}/leaders">Leadership Meeting</a> (Only for Managers)
+</p>
+<p>
+	<a href="${pageContext.request.contextPath}/systems">IT Systems Meeting</a> (Only for Systems)
+</p>
+
 <fform:form action="${pageContext.request.contextPath}/logout" method="POST">
 	<input type="submit" value="Logout" />
 </fform:form> 
