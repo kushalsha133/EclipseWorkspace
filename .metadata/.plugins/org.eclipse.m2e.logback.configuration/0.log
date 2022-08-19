@@ -1906,3 +1906,27 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Unrecognise
 2022-08-18 17:50:18,660 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-08-18 17:50:18,661 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-09-jdbc-bcrypt\src\test\resources
 2022-08-18 17:50:19,157 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-18 17:50:19,158 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-18 17:50:19,162 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-18 17:50:19,163 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-09-jdbc-bcrypt\src\test\resources
+2022-08-18 17:53:20,468 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-18 17:53:20,469 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-18 17:53:20,470 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-18 17:53:20,471 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-09-jdbc-bcrypt\src\test\resources
+2022-08-18 17:53:34,150 [Worker-55: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-08-18 17:53:34,390 [Worker-55: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.luv2code:spring-security-demo:1.0 @ D:\EclipseSpringRewamp\spring-security-demo-09-jdbc-bcrypt\pom.xml.
+2022-08-18 17:53:34,820 [Worker-55: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-security-demo-09-jdbc-bcrypt/src/main/java
+2022-08-18 17:53:34,821 [Worker-55: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-security-demo-09-jdbc-bcrypt/src/main/resources
+2022-08-18 17:53:34,822 [Worker-55: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-security-demo-09-jdbc-bcrypt/src/test/java
+2022-08-18 17:53:35,197 [Worker-55: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for spring-security-demo-09-jdbc-bcrypt
+2022-08-18 17:53:35,203 [Worker-55: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-08-18 17:53:35,472 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-18 17:53:35,474 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-18 17:53:35,477 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-18 17:53:35,478 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\EclipseSpringRewamp\spring-security-demo-09-jdbc-bcrypt\src\test\resources
+2022-08-18 17:53:35,478 [Worker-54: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of spring-security-demo-09-jdbc-bcrypt
+2022-08-18 17:53:35,478 [Worker-54: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for spring-security-demo-09-jdbc-bcrypt
+2022-08-18 17:53:35,482 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-18 17:54:04,420 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-08-18 17:54:04,422 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-18 17:54:04,424 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
