@@ -2,6 +2,10 @@ package com.kushal.jackson.json.demo;
 
 import java.util.Arrays;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+//say at some point some extra fields are added in the Json file, our program
+//won't break it will just ignore those properties due to this annotation
+@JsonIgnoreProperties(ignoreUnknown=true)
 public class Student2 {
 	private int id;
 	private String firstName;
